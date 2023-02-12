@@ -24,7 +24,24 @@ function create_posttype() {
         )
     );
 
-
+    register_post_type( 'Tesimonial',
+        array(
+            'labels' => array(
+                'name' => __( 'Tesimonials' ),
+                'singular_name' => __( 'Tesimonial' ),
+                'add_new' => 'Add New Tesimonial',
+                'add_new_item' => 'Add New Tesimonial',
+                'edit_item'  => 'Edit Tesimonial',
+                'view_item' => 'View Tesimonial'
+            ),
+            'publicly_queryable' => false,
+            'public' => true,
+            'show_in_rest' => false,
+            'has_archive' => true,
+            'rewrite' => array('with_front' => false, 'slug' => 'faq'),
+            'supports' => array( 'title', 'author', 'revisions','editor' ),
+        )
+    );
 
 
  }
