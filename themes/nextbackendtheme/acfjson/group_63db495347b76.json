@@ -69,6 +69,23 @@
             "max_size": "",
             "mime_types": "",
             "preview_size": "medium"
+        },
+        {
+            "key": "field_63e85816e6ce1",
+            "label": "CTA",
+            "name": "cta",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "return_format": "array"
         }
     ],
     "location": [
@@ -95,5 +112,5 @@
     "graphql_types": [
         "Page"
     ],
-    "modified": 1675741363
+    "modified": 1676171294
 }

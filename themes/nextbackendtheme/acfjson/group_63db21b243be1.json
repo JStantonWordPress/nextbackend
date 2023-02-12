@@ -48,6 +48,27 @@
             "max_size": "",
             "mime_types": "",
             "preview_size": "medium"
+        },
+        {
+            "key": "field_63e85826deb9b",
+            "label": "About H1",
+            "name": "about_h1",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -74,5 +95,5 @@
     "graphql_types": [
         "Page"
     ],
-    "modified": 1675307958
+    "modified": 1676171309
 }
