@@ -8,6 +8,7 @@ register_nav_menus(
     array(
         'primary' => esc_html__( 'Primary menu', 'frubackend' ),
         'mobile'  => esc_html__( 'Mobile', 'frubackend' ),
+        'footer'  => esc_html__( 'Footer', 'frubackend' ),
     )
 );
 

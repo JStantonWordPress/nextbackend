@@ -44,13 +44,6 @@ function my_acf_op_init() {
 
 
 
-        $child = acf_add_options_sub_page(array(
-            'page_title'  => __('404'),
-            'menu_title'  => __('404'),
-            'parent_slug' => $parent['menu_slug'],
-            'show_in_graphql' => true
-        ));
-
     }
 }
 

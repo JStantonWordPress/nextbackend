@@ -5,43 +5,43 @@ add_action( 'init', 'create_posttype' );
 function create_posttype() {
 
 
-    register_post_type( 'FAQ',
-        array(
-            'labels' => array(
-                'name' => __( 'FAQs' ),
-                'singular_name' => __( 'FAQ' ),
-                'add_new' => 'Add New FAQ',
-                'add_new_item' => 'Add New FAQ',
-                'edit_item'  => 'Edit FAQ',
-                'view_item' => 'View FAQ'
-            ),
-            'publicly_queryable' => false,
-            'public' => true,
-            'show_in_rest' => false,
-            'has_archive' => true,
-            'rewrite' => array('with_front' => false, 'slug' => 'faq'),
-            'supports' => array( 'title', 'author', 'revisions','editor' ),
-        )
-    );
-
-    register_post_type( 'Tesimonial',
-        array(
-            'labels' => array(
-                'name' => __( 'Tesimonials' ),
-                'singular_name' => __( 'Tesimonial' ),
-                'add_new' => 'Add New Tesimonial',
-                'add_new_item' => 'Add New Tesimonial',
-                'edit_item'  => 'Edit Tesimonial',
-                'view_item' => 'View Tesimonial'
-            ),
-            'publicly_queryable' => false,
-            'public' => true,
-            'show_in_rest' => false,
-            'has_archive' => true,
-            'rewrite' => array('with_front' => false, 'slug' => 'faq'),
-            'supports' => array( 'title', 'author', 'revisions','editor' ),
-        )
-    );
+//    register_post_type( 'FAQ',
+//        array(
+//            'labels' => array(
+//                'name' => __( 'FAQs' ),
+//                'singular_name' => __( 'FAQ' ),
+//                'add_new' => 'Add New FAQ',
+//                'add_new_item' => 'Add New FAQ',
+//                'edit_item'  => 'Edit FAQ',
+//                'view_item' => 'View FAQ'
+//            ),
+//            'publicly_queryable' => false,
+//            'public' => true,
+//            'show_in_rest' => false,
+//            'has_archive' => true,
+//            'rewrite' => array('with_front' => false, 'slug' => 'faq'),
+//            'supports' => array( 'title', 'author', 'revisions','editor' ),
+//        )
+//    );
+//
+//    register_post_type( 'Tesimonial',
+//        array(
+//            'labels' => array(
+//                'name' => __( 'Tesimonials' ),
+//                'singular_name' => __( 'Tesimonial' ),
+//                'add_new' => 'Add New Tesimonial',
+//                'add_new_item' => 'Add New Tesimonial',
+//                'edit_item'  => 'Edit Tesimonial',
+//                'view_item' => 'View Tesimonial'
+//            ),
+//            'publicly_queryable' => false,
+//            'public' => true,
+//            'show_in_rest' => false,
+//            'has_archive' => true,
+//            'rewrite' => array('with_front' => false, 'slug' => 'faq'),
+//            'supports' => array( 'title', 'author', 'revisions','editor' ),
+//        )
+//    );
 
 
  }
